@@ -1,4 +1,4 @@
-close all;
+close all; clear all;
 cfg=struct;
 cfg.inter_box_spacing=30; % distance between layers
 cfg.line_density=0.1; % how dense are the connections between units and their corresponding receptive fields. 1.0 is nice and dense (but slow).
@@ -53,7 +53,6 @@ if cfg.doDrawEmptyBox
     global LineWidthOrder; LineWidthOrder = [1.2]; % this is used by arrow3
     arrow3(p1,p2,'k-/',SF);
 end
-
 
 set_fig_properties()
 arrow3('update',SF)
