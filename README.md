@@ -12,5 +12,5 @@ If you use this for talks/posters/papers, please cite:
 
 [Kriegeskorte, Nikolaus, and Tal Golan. "Neural network models and deep learning." Current Biology 29.7 (2019): R231-R236.](https://www.sciencedirect.com/science/article/pii/S0960982219302040?dgcid=api_sd_search-api-endpoint)
 
-
+Tested on Matlab R2017b.
 Figure export code credit: [https://github.com/altmany/export_fig](https://github.com/altmany/export_fig)
